@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    /* By deafult it is 8px */
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-buttons {
+    display: inline-block;
+    margin-left: 42px;
+}
+
+button.react {
+    color: white;
+    background: crimson;
+    border: 2px solid crimson;
+    border-radius: 100px;
+    padding: 2.5px 20px;
+    margin-right: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.comment-image {
+    border-radius: 50px;
+    border: 2px solid crimson;
+}
+
+.comment-content {
+    display: inline-block;
+    margin: 0;
+}
+
+.comment-name {
+    vertical-align: middle;
+    margin: 0 5px 4px;
+}
+
+.comment-text {
+    text-align: left;
+    margin: 0 5px 3px;
+    display: block;
+}
+
+.after-nav {
+    padding: 0 40px;
+}
+
+.home h2 {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: crimson;
+    text-align: center;
+}
+
+.nav h1 {
+    display: inline-block;
+    padding: 0 40px;
+    color: white;
+}
+
+.nav {
+    background-color: crimson;
+}
+
+.nav ul {
+    display: inline;
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 12px;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 28px;
+}
+
+.nav ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.comment-subscibe {
+    display: flex;
+    justify-content: center;
+}
+
+.comment-subscibe div {
+    margin-right: 100px;
+}
+
+.color {
+    color: crimson;
+}
+
+#subscribe-comment {
+    margin: 0;
+}
+
+#subscribe-comment h1 {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.long-line {
+    height: 400px;
+    width: 5px;
+    background-color: crimson;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+.input-text {
+    width: 200px;
+    height: 50px;
+    border: 2px solid crimson;
+    border-radius: 50px;
+    padding: 0 20px;
+    outline: none;
+}
+
+.text-field {
+    width: 365px;
+    height: 62px;
+    border: 2px solid crimson;
+    border-radius: 50px;
+    padding: 0 20px;
+    outline: none;
+}
+
+.submit {
+    background-color: crimson;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: 2px solid crimson;
+    border-radius: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+    box-sizing: initial;
+}
+
+.submit:hover {
+    background: none;
+    color: crimson;
+}
+
+.more-contents {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    width: 350px;
+    border-left: 10px solid;
+    border-image: linear-gradient(45deg, crimson, rgb(138, 12, 37));
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 40px;
+}
+
+.box h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.box img {
+    width: 100%;
+}
+
+#content-more h1 {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section {
+    height: 100vh;
+}
+
+.footer {
+    background-color: rgb(19, 19, 19);
+    color: grey;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    padding-top: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    margin-left: 300px;
+}
+
+.flex p {
+    padding-top: 0;
+}
